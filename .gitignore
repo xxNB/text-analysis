@@ -99,3 +99,9 @@ ENV/
 
 # mypy
 .mypy_cache/
+.idea/
+emotion_process/corpus.model.bin
+emotion_process/svm_data/model.pkl
+dataclean_process/report.xls
+sipder_process/冈波仁齐.csv
+emotion_process/merge.csv

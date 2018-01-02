@@ -5,6 +5,9 @@ import pandas as pd
 from collections import defaultdict
 import numpy as np
 
+##################################################################
+# 分词之前发现新词,提高分词准确率
+##################################################################
 
 md5 = lambda s: hashlib.md5(s).hexdigest()
 def works():

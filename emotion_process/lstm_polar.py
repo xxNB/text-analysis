@@ -2,8 +2,6 @@
 
 import yaml
 import sys
-# reload(sys)
-# sys.setdefaultencoding('utf8')
 from sklearn.model_selection import train_test_split
 import multiprocessing
 import numpy as np
@@ -197,4 +195,4 @@ if __name__=='__main__':
     # string='屏幕较差，拍照也很粗糙。'
     # string='质量不错，是正品 ，安装师傅也很好，才要了83元材料费'
     # string='东西非常不错，安装师傅很负责人，装的也很漂亮，精致，谢谢安装师傅！'
-    # lstm_predict(string)
+    lstm_predict(string)
